@@ -1,0 +1,31 @@
+package geeksforgeeks;
+import java.util.*;
+
+class Test1
+{
+	static void Fun(float a, float b)
+	{
+		float R=a/b;
+		
+		System.out.println(R);
+		System.out.format("%.3f",R);
+	}
+}
+
+public class Precise_format 
+{
+
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter two Float numbers " );
+		float a=sc.nextFloat();
+		float b=sc.nextFloat();
+		 
+		Test1 t=new Test1();
+		
+		t.Fun(a,b);
+		System.out.println();
+		
+	}
+}
