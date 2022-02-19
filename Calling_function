@@ -1,0 +1,18 @@
+package geeksforgeeks;
+
+class Call_Fun
+{
+	static void printhello()
+	{
+		System.out.println("Hello");
+	}
+}
+public class Calling_function {
+
+	public static void main(String[] args) 
+	{
+		Call_Fun C=new Call_Fun();
+		C.printhello();
+	}
+
+}
